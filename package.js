@@ -10,8 +10,6 @@ Package.onUse(function(api) {
 
     api.versionsFrom("METEOR@0.9.1.1");
 
-    api.use('jquery', 'client');
-
     api.add_files([
         'lib/ramda.js',
     ], 'client');
