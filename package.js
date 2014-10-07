@@ -16,5 +16,7 @@ Package.onUse(function(api) {
         'sweetalert/lib/sweet-alert.min.js'
     ], ['client']);
 
-    if(api.export)
+    if(api.export){
+        
+    }
 })
