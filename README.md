@@ -1,3 +1,3 @@
-# Meteor-ramda
+# Meteor-sweetalert
 
-A practical functional library for Javascript programmers. [Check it out on github](https://github.com/CrossEye/ramda)
+a beautiful replacement for javascript's alert().  [Check it out on github](https://github.com/t4t5/sweetalert.git)
