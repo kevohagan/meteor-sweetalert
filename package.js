@@ -11,10 +11,10 @@ Package.onUse(function(api) {
     api.versionsFrom("METEOR@0.9.1.1");
 
     api.add_files([
-        'lib/ramda.js',
-    ], ['client', 'server']);
+        'sweetalert/lib/sweet-alert.html',
+        'sweetalert/lib/sweet-alert.css',
+        'sweetalert/lib/sweet-alert.min.js'
+    ], ['client']);
 
     if(api.export)
-        // api.export('Ramda');
-        // api.export('R');
 })
