@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'kevohagan:ramda',
-    summary: 'A practical functional library for Javascript programmers.',
-    version: '0.1.0',
-    git: 'https://github.com/kevohagan/meteor-ramda.git',
+    name: 'kevohagan:sweetalert',
+    summary: "a beautiful replacement for javascript's alert() ",
+    version: '0.0.1',
+    git: 'https://github.com/kevohagan/meteor-sweetalert.git',
     upstreamVersion: "0.1.0"
 });
 
@@ -12,8 +12,9 @@ Package.onUse(function(api) {
 
     api.add_files([
         'lib/ramda.js',
-    ], 'client');
+    ], ['client', 'server']);
 
     if(api.export)
-        api.export('ramda');
+        // api.export('Ramda');
+        // api.export('R');
 })
