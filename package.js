@@ -1,9 +1,8 @@
 Package.describe({
     name: 'kevohagan:sweetalert',
     summary: "a beautiful replacement for javascript's alert() ",
-    version: '0.0.1',
+    version: '0.2.1',
     git: 'https://github.com/kevohagan/meteor-sweetalert.git',
-    upstreamVersion: "0.1.0"
 });
 
 Package.onUse(function(api) {
@@ -17,6 +16,6 @@ Package.onUse(function(api) {
     ], ['client']);
 
     if(api.export){
-        
+
     }
 })
