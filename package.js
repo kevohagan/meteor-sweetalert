@@ -10,9 +10,8 @@ Package.onUse(function(api) {
     api.versionsFrom("METEOR@0.9.1.1");
 
     api.add_files([
-        'sweetalert/lib/sweet-alert.html',
-        'sweetalert/lib/sweet-alert.css',
-        'sweetalert/lib/sweet-alert.js'
+        'sweetalert/dist/sweetalert.css',
+        'sweetalert/dist/sweetalert-dev.js'
     ], ['client']);
 
     if(api.export){
