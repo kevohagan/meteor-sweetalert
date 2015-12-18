@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'kevohagan:sweetalert',
+    name: 'smoral:sweetalert',
     summary: "a beautiful replacement for javascript's alert() ",
-    version: '1.0.0',
-    git: 'https://github.com/kevohagan/meteor-sweetalert.git',
+    version: '1.1.1',
+    git: 'https://github.com/smoral/meteor-sweetalert.git',
 });
 
 Package.onUse(function(api) {
@@ -10,8 +10,8 @@ Package.onUse(function(api) {
     api.versionsFrom("METEOR@0.9.1.1");
 
     api.add_files([
-        'sweetalert/lib/sweet-alert.css',
-        'sweetalert/lib/sweet-alert.min.js'
+        'sweetalert/dist/sweetalert.css',
+        'sweetalert/dist/sweetalert.min.js'
     ], ['client']);
 
     if(api.export){
